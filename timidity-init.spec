@@ -1,14 +1,10 @@
-%define name	timidity-init
-%define version	0.3
-%define release 1mdk
-
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		timidity-init
+Version:	0.3
+Release:	%mkrel 2
 Summary:	Init script for TiMidity++ ALSA sequencer
 License:	GPL
-Source0:	timidity.init.bz2
-Source1:	timidity.sysconfig.bz2
+Source0:	timidity.init
+Source1:	timidity.sysconfig
 URL:		http://timidity.sourceforge.net/
 Group:		Sound
 BuildArch:	noarch
