@@ -9,7 +9,7 @@ URL:		http://timidity.sourceforge.net/
 Group:		Sound
 BuildArch:	noarch
 Requires:	TiMidity++
-PreReq:		rpm-helper
+Requires(post,preun):	rpm-helper
 
 %description
 Contains init script to launch TiMidity++ as a service. This allows one to
