@@ -8,6 +8,7 @@ Source1:	timidity.sysconfig
 URL:		http://timidity.sourceforge.net/
 Group:		Sound
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	TiMidity++
 Requires(post,preun):	rpm-helper
 
