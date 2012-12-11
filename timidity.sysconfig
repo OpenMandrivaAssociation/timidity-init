@@ -1,0 +1,17 @@
+# Number of buffers, and buffer size in 2^n
+BUFNUM=2
+BUFSIZE=10
+
+# Sampling rate, default is 44100
+SAMPLERATE=22050
+
+# Antialias = "true" enhances sound quality
+ANTIALIAS=false
+
+# PRIORITY is the realtime priority. For more detail, see
+# manpage sched_setscheduler(2), the part talking about SCHED_FIFO.
+# this number is 0-100 inclusive.
+#PRIORITY=10
+
+# Any extra timidity options please go here
+#EXTRA_OPTIONS=
