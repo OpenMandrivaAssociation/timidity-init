@@ -1,0 +1,12 @@
+[Unit]
+Description=MIDI to WAVE converter and player (ALSA sequencer)
+After=sound.target
+Wants=sound.target
+
+[Service]
+Type=forking
+EnvironmentFile=-sysconfig/timidity
+ExecStart=/usr/bin/timidity-wrapper.sh
+
+[Install]
+WantedBy=multi-user.target
