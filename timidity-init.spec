@@ -1,6 +1,6 @@
 Name:		timidity-init
 Version:	0.3
-Release:	7
+Release:	8
 Summary:	Init script for TiMidity++ ALSA sequencer
 License:	GPL
 Source0:	timidity.service
