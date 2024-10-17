@@ -6,7 +6,7 @@ License:	GPL
 Source0:	timidity.service
 Source1:	timidity.sysconfig
 Source2:        timidity-wrapper.sh
-URL:		http://timidity.sourceforge.net/
+URL:		https://timidity.sourceforge.net/
 Group:		Sound
 BuildArch:	noarch
 Requires:	TiMidity++
